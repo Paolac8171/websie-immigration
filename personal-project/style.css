@@ -2,7 +2,7 @@
     margin-bottom: 90px;
 }
 
-.links{
+#links{
  margin-top: 90px;
     margin-bottom: 90px;
     font-family: monospace;
@@ -20,27 +20,23 @@
 
 .row {
     margin-top: 90px;
-    margin-bottom: 90px;
     font-family: monospace;
 }
 
 p{
    font-size: 16px;
    text-align: center;
+   width: 1440px;
 }
 
-img{
+.img{
     width: 175px;
     height: 250px;
 }
 
-h3 {
+h4,h5,h3{
     text-align: center;
-    text-shadow: inherit
-}
-
-h4{
-    text-align: center;
+    width: 100%;
 }
 
 li{
@@ -79,4 +75,16 @@ li a {
 
 .website{
     background: linear-gradient(to bottom right, lightblue, white);
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
 }
